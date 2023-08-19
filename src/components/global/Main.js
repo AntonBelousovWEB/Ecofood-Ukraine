@@ -10,7 +10,7 @@ export default function Main() {
   const [reviews, setReviews] = React.useState([]);
 
   React.useEffect(() => {
-    axios.get("http://localhost:3000/db.json")
+    axios.get("https://64e0c19cd46b3e4d97ea95c6--gorgeous-salamander-740d57.netlify.app/db.json")
       .then(response => {
         setProducts(response.data.products);
         setReviews(response.data.reviews)
