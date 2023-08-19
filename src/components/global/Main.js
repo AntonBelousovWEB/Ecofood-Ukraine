@@ -19,7 +19,7 @@ export default function Main() {
       .catch(error => {
         console.error("Error fetching data:", error);
       });
-  }, [])
+  }, [currentUrl])
 
   return (
     <div className="container">
