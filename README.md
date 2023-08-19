@@ -25,4 +25,4 @@ EcoFood Ukraine is a web application built using JavaScript, React, Redux, and R
 
 ## Contact
 
-Visit our website [EcoFood Ukraine](https://example.com).
+Visit our website [EcoFood Ukraine](https://64e0d91a9c4b200007cf3963--gorgeous-salamander-740d57.netlify.app/).
