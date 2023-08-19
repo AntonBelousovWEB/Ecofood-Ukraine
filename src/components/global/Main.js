@@ -8,9 +8,10 @@ import ReactPlayer from 'react-player'
 export default function Main() {
   const [products, setProducts] = React.useState([]);
   const [reviews, setReviews] = React.useState([]);
+  const currentUrl = window.location.href;
 
   React.useEffect(() => {
-    axios.get("https://64e0c19cd46b3e4d97ea95c6--gorgeous-salamander-740d57.netlify.app/db.json")
+    axios.get(`${currentUrl}/db.json`)
       .then(response => {
         setProducts(response.data.products);
         setReviews(response.data.reviews)
