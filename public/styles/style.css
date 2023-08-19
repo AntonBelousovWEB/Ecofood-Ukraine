@@ -200,7 +200,7 @@ body {
 }
 
 .products {
-    margin-top: 60px;
+    margin-top: 110px;
 }
 
 .productCard {
@@ -223,7 +223,6 @@ body {
 
 .price_block {
     margin-top: 45px;
-    justify-content: space-between;
     gap: 50px;
     align-items: center;
 }
